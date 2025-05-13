@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 trigger: title,
                 start: "top 80%",
                 toggleActions: "play reverse play reverse", // 반복 가능
-                // markers: true, // 개발 시 확인용
+                // markers: true,
             },
         });
     });
