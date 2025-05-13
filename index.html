@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Paulbassett</title>
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/main.css" />
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollToPlugin.min.js"></script>
+        <script src="./js/script.js"></script>
+    </head>
+    <body>
+        <header id="header">
+            <div class="inner">
+                <nav>
+                    <h1 class="logo">
+                        <a href="#"
+                            ><img src="./img/logo.svg" alt="폴바셋 로고"
+                        /></a>
+                    </h1>
+                    <ul class="gnb">
+                        <li>
+                            <a href="#">풀바셋 소개</a>
+                            <ul class="submenu">
+                                <li><a href="#">브랜드</a></li>
+                                <li><a href="#">회사소개</a></li>
+                                <li><a href="#">CSR</a></li>
+                                <li><a href="#">매장찾기</a></li>
+                                <li><a href="#">지점안내</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">메뉴</a>
+                            <ul class="submenu">
+                                <li><a href="#">음료</a></li>
+                                <li><a href="#">아이스크림</a></li>
+                                <li><a href="#">푸드</a></li>
+                                <li><a href="#">상품</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">멤버십</a>
+                            <ul class="submenu">
+                                <li><a href="#">멤버십 안내</a></li>
+                                <li><a href="#">회원등급 혜택</a></li>
+                                <li><a href="#">모바일앱</a></li>
+                                <li><a href="#">제휴혜택 안내</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">풀바셋 소식</a>
+                            <ul class="submenu">
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">이벤트/뉴스</a></li>
+                                <li><a href="#">고객센터</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">문의하기</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">브랜드 지원</a>
+                            <ul class="submenu">
+                                <li><a href="#">채용</a></li>
+                                <li><a href="#">납품안내</a></li>
+                                <li><a href="#">신규입점제의</a></li>
+                                <li><a href="#">원두정보</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- //e: header -->
+
+        <main id="main">
+            <section class="visual">
+                <h1 class="hidden">main-visual</h1>
+                <div class="swiper visual-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <figure>
+                                    <img
+                                        src="./img/main_visual01.jpg"
+                                        alt="메인비주얼01"
+                                    />
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <figure>
+                                    <img
+                                        src="./img/main_visual02.jpg"
+                                        alt="메인비주얼02"
+                                    />
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination">1</div>
+                </div>
+            </section>
+            <!-- //e: visual -->
+
+            <section class="menu">
+                <h1 class="text">MENU</h1>
+                <div class="inner">
+                    <div class="menu_text_box">
+                        <a href="#">
+                            <p class="menu_text">커피</p>
+                        </a>
+                        <a href="#">
+                            <p class="menu_text">차</p>
+                        </a>
+                        <a href="#">
+                            <p class="menu_text">아이스크림</p>
+                        </a>
+                    </div>
+
+                    <div class="swiper menu-slider">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <figure>
+                                        <img
+                                            src="./img/menu_lungo.jpg"
+                                            alt="menu_lungo"
+                                        />
+                                    </figure>
+                                    <p>룽고</p>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <figure>
+                                        <img
+                                            src="./img/menu_icedamericano.jpg"
+                                            alt="menu_icedamericano"
+                                        />
+                                    </figure>
+                                    <p>아이스 아메리카노</p>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <figure>
+                                        <img
+                                            src="./img/menu_espresso.jpg"
+                                            alt="menu_espresso"
+                                        />
+                                    </figure>
+                                    <p>에스프레소</p>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <figure>
+                                        <img
+                                            src="./img/menu_cafelatte.jpg"
+                                            alt="menu_cafelatte"
+                                        />
+                                    </figure>
+                                    <p>카페라떼</p>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <figure>
+                                        <img
+                                            src="./img/menu_espressomacchiato.jpg"
+                                            alt="menu_espressomacchiato"
+                                        />
+                                    </figure>
+                                    <p>에스프레소 마키아토</p>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#">
+                                    <figure>
+                                        <img
+                                            src="./img/menu_cinnamoncafelatte.jpg"
+                                            alt="menu_cinnamoncafelatte"
+                                        />
+                                    </figure>
+                                    <p>시나몬 카페 라떼</p>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- //e: menu -->
+
+            <section class="vision">
+                <div class="inner">
+                    <h2 class="text">VISION</h2>
+
+                    <div class="vision-con">
+                        <figure>
+                            <img
+                                src="./img/vision_img01.jpg"
+                                alt="vision_img01"
+                            />
+                        </figure>
+                        <div class="vision-text">
+                            <dl>
+                                <dt>Sead of Happiness</dt>
+                                <dd>
+                                    우리가 만드는 모든 제품과 서비스로 고객의
+                                    하루를 행복하게 합니다. 작은 행복이 모여
+                                    세상을 풍요롭게 만들기에, 우리는 바로 그
+                                    행복을 만드는 씨앗입니다.
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="vision-con reverse">
+                        <figure>
+                            <img
+                                src="./img/vision_img02.jpg"
+                                alt="vision_img02"
+                            />
+                        </figure>
+                        <dl>
+                            <dt>Let’s Sprout</dt>
+                            <dd>
+                                우리는 큰 꿈을 실현하기 위해 함께 합니다. 작은
+                                씨앗이 껍질을 뚫고 싹을 틔워내 큰 나무가 되듯이,
+                                우리는 매일 담대하게 성장하여 꿈을 이뤄냅니다.
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="vision-con">
+                        <figure>
+                            <img
+                                src="./img/vision_img03.jpg"
+                                alt="vision_img03"
+                            />
+                        </figure>
+                        <dl>
+                            <dt>From Trust to Love</dt>
+                            <dd>
+                                우리의 작은 말과 행동 하나 하나가 곧 우리의
+                                브랜드가 됩니다. 고객이 신뢰할 수 있는 품질을
+                                바탕으로 사랑받는 브랜드, 존경받는 기업으로
+                                거듭납니다.
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </section>
+
+            <!-- //e: vision -->
+
+            <section class="notice">
+                <h2 class="text">NOTICE</h2>
+                <ul class="notice-con">
+                    <li>
+                        <a href="#">
+                            <figure>
+                                <img
+                                    src="./img/notice_img01.png"
+                                    alt="notice_img01"
+                                />
+                            </figure>
+                            <dl>
+                                <dt>봄 시즌 원두 콜드브루 출시</dt>
+                                <dd>2025-01-16</dd>
+                            </dl>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <figure>
+                                <img
+                                    src="./img/notice_img02.png"
+                                    alt="notice_img02"
+                                />
+                            </figure>
+                            <dl>
+                                <dt>폴 바셋 e-stamp 이벤트 조..</dt>
+                                <dd>2024-12-30</dd>
+                            </dl>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <figure>
+                                <img
+                                    src="./img/notice_img03.png"
+                                    alt="notice_img03"
+                                />
+                            </figure>
+                            <dl>
+                                <dt>폴 바셋 X 밀도 판매 매장 안내</dt>
+                                <dd>2024-10-17</dd>
+                            </dl>
+                        </a>
+                    </li>
+                </ul>
+                <a href="#" class="btn-more">더보기</a>
+            </section>
+            <!-- //e: notice  -->
+            <section class="info">
+                <h1 class="hidden">info</h1>
+                <ul class="info-con">
+                    <li>
+                        <a href="#">
+                            <figure>
+                                <img
+                                    src="./img/info_coffee.jpg"
+                                    alt="info_coffee"
+                                />
+                            </figure>
+                            <p>원두납품</p>
+                        </a>
+                        <div class="dim"></div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure>
+                                <img
+                                    src="./img/info_shop.jpg"
+                                    alt="info_shop"
+                                />
+                            </figure>
+                            <p>입점제의</p>
+                        </a>
+                        <div class="dim"></div>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <!-- //e: main -->
+
+        <footer id="footer">
+            <div class="foot-wrap">
+                <div class="foot-con1">
+                    <a href="#">개인정보처리방침</a>
+                    <a href="#">신규입점안내</a>
+                    <a href="#">이용약관</a>
+                    <a href="#">위치정보 서비스 이용약관</a>
+                    <a href="#">소사이어티카드 이용약관</a>
+                    <a href="#">기프트카드카드 이용약관</a>
+                    <a href="#">고객센터</a>
+                    <a href="#">사이트맵</a>
+                    <a href="#">윤리 HOT LINE</a>
+                </div>
+
+                <div class="foot-con2">
+                    <p>엠즈씨드(주) 대표이사 : 권익범</p>
+                    <p>개인정보관리책임자 : 정보문</p>
+                    <p>주소: 서울특별시 강남구 도산대로 75길 22 (청담동)</p>
+                </div>
+                <div class="foot-con3">
+                    <p>사업자등록번호 211-88-95935</p>
+                    <p>대표번호 1899-8829</p>
+                </div>
+
+                <div class="foot-bottom">
+                    <p class="copyright">
+                        © 2019 m’s seed Co., Ltd. All rights reserved.
+                    </p>
+
+                    <div class="foot-link">
+                        <div class="foot-img">
+                            <div class="foot-img1">
+                                <a href="#">
+                                    <figure>
+                                        <img
+                                            src="./img/icon_footer01.png"
+                                            alt="icon_footer01"
+                                        />
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="foot-img2">
+                                <figure>
+                                    <img
+                                        src="./img/icon_footer02.png"
+                                        alt="icon_footer02"
+                                    />
+                                </figure>
+                            </div>
+                        </div>
+
+                        <ul class="foot-icon">
+                            <li>
+                                <a href="#"
+                                    ><img
+                                        src="./img/icon_facebook.png"
+                                        alt="icon_facebook"
+                                /></a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    ><img
+                                        src="./img/icon_instagram.png"
+                                        alt="icon_instagram"
+                                /></a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    ><img
+                                        src="./img/icon_youtube.png"
+                                        alt="icon_youtube"
+                                /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <button type="button" class="btn-top">TOP</button>
+
+        <!-- main visual 부분 -->
+        <div class="cursor">view more</div>
+    </body>
+</html>
